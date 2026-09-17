@@ -1,0 +1,280 @@
+{
+  "recognised": [
+    {
+      "id": "R000",
+      "descriptors": [
+        "balsamic",
+        "clean",
+        "sandalwood",
+        "woody"
+      ],
+      "reference_smiles": "CC1(C)C2CCC(C3CCC(O)CC3)C1(C)C2",
+      "reference_scaffold": "C1CCC(C2CCC3CC2C3)CC1",
+      "n_train_molecules_with_profile": 2
+    },
+    {
+      "id": "R001",
+      "descriptors": [
+        "dry",
+        "woody"
+      ],
+      "reference_smiles": "CC1=CC2C(CC1)C(C)=CCC2C(C)C",
+      "reference_scaffold": "C1=CC2CCC=CC2CC1",
+      "n_train_molecules_with_profile": 70
+    },
+    {
+      "id": "R002",
+      "descriptors": [
+        "buttery",
+        "roasted"
+      ],
+      "reference_smiles": "CC(=O)C1(C)CC2(O)OC(C)(C(C)=O)OC2(C)O1",
+      "reference_scaffold": "C1CC2OCOC2O1",
+      "n_train_molecules_with_profile": 7
+    },
+    {
+      "id": "R003",
+      "descriptors": [
+        "earthy",
+        "spicy",
+        "woody"
+      ],
+      "reference_smiles": "CC1=CCC(=C(C)C)CCC(C)=CCC1",
+      "reference_scaffold": "C=C1CC=CCCC=CCC1",
+      "n_train_molecules_with_profile": 13
+    },
+    {
+      "id": "R004",
+      "descriptors": [
+        "fruity",
+        "green",
+        "sweet"
+      ],
+      "reference_smiles": "CC(OCc1ccccc1)OCc1ccccc1",
+      "reference_scaffold": "c1ccc(COCOCc2ccccc2)cc1",
+      "n_train_molecules_with_profile": 224
+    },
+    {
+      "id": "R005",
+      "descriptors": [
+        "roasted",
+        "smoky",
+        "sulfurous"
+      ],
+      "reference_smiles": "Cc1occ2c1SCC2",
+      "reference_scaffold": "c1occ2c1CCS2",
+      "n_train_molecules_with_profile": 6
+    },
+    {
+      "id": "R006",
+      "descriptors": [
+        "nutty",
+        "popcorn",
+        "roasted"
+      ],
+      "reference_smiles": "Cc1ncc2c(n1)CSC2",
+      "reference_scaffold": "c1ncc2c(n1)CSC2",
+      "n_train_molecules_with_profile": 13
+    },
+    {
+      "id": "R007",
+      "descriptors": [
+        "mushroom",
+        "sulfurous"
+      ],
+      "reference_smiles": "C1SSCSSS1",
+      "reference_scaffold": "C1SSCSSS1",
+      "n_train_molecules_with_profile": 9
+    },
+    {
+      "id": "R008",
+      "descriptors": [
+        "camphoreous",
+        "green",
+        "herbal",
+        "mint"
+      ],
+      "reference_smiles": "C=C1C(=O)CC2CC1C2(C)C",
+      "reference_scaffold": "C=C1C(=O)CC2CC1C2",
+      "n_train_molecules_with_profile": 12
+    }
+  ],
+  "unrecognised": [
+    {
+      "id": "U000",
+      "descriptors": [
+        "fresh",
+        "green"
+      ],
+      "reference_smiles": "C=C1C2CC(C1OC(C)=O)C1CC=C(C)C21",
+      "reference_scaffold": "C=C1CC2CC1C1C=CCC21",
+      "n_train_molecules_with_profile": 239
+    },
+    {
+      "id": "U001",
+      "descriptors": [
+        "apple",
+        "fruity",
+        "mint",
+        "rose"
+      ],
+      "reference_smiles": "CC1=CCCC(C)(Cc2ccccc2)C1=O",
+      "reference_scaffold": "O=C1C=CCCC1Cc1ccccc1",
+      "n_train_molecules_with_profile": 2
+    },
+    {
+      "id": "U002",
+      "descriptors": [
+        "floral",
+        "fruity",
+        "musk",
+        "tropical"
+      ],
+      "reference_smiles": "OC1C(C2CCCC2)CCC1C1CCCC1",
+      "reference_scaffold": "C1CCC(C2CCC(C3CCCC3)C2)C1",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "U003",
+      "descriptors": [
+        "floral",
+        "fruity"
+      ],
+      "reference_smiles": "c1coc(Cc2ccoc2Cc2ccco2)c1",
+      "reference_scaffold": "c1coc(Cc2ccoc2Cc2ccco2)c1",
+      "n_train_molecules_with_profile": 438
+    },
+    {
+      "id": "U004",
+      "descriptors": [
+        "herbal",
+        "waxy"
+      ],
+      "reference_smiles": "CC1=CCC23C(C)CCC(C(C)C)C2C13",
+      "reference_scaffold": "C1=CC2C3CCCCC23C1",
+      "n_train_molecules_with_profile": 48
+    }
+  ],
+  "unrealisable": [
+    {
+      "id": "X000",
+      "descriptors": [
+        "aldehydic",
+        "sulfurous"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X001",
+      "descriptors": [
+        "onion",
+        "waxy"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X002",
+      "descriptors": [
+        "honey",
+        "sulfurous"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X003",
+      "descriptors": [
+        "onion",
+        "powdery"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X004",
+      "descriptors": [
+        "apple",
+        "sulfurous"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X005",
+      "descriptors": [
+        "aldehydic",
+        "fermented"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X006",
+      "descriptors": [
+        "honey",
+        "onion"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X007",
+      "descriptors": [
+        "rose",
+        "sulfurous"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X008",
+      "descriptors": [
+        "aldehydic",
+        "roasted"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X009",
+      "descriptors": [
+        "burnt",
+        "rose"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X010",
+      "descriptors": [
+        "roasted",
+        "rose"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    },
+    {
+      "id": "X011",
+      "descriptors": [
+        "aldehydic",
+        "burnt"
+      ],
+      "reference_smiles": "",
+      "reference_scaffold": "",
+      "n_train_molecules_with_profile": 0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "n_in_dataset": 60,
+  "n_off_dataset_controls": 37,
+  "mean_f1_in_dataset": 0.4202608502608503,
+  "mean_recall_in_dataset": 0.45673280423280416,
+  "named_rate": 0.75,
+  "mean_f1_when_named": 0.4805594405594406,
+  "mean_f1_when_unnamed": 0.23936507936507936,
+  "high_recall_fraction": 0.36666666666666664
+}

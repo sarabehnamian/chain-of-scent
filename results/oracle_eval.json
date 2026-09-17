@@ -1,0 +1,6 @@
+{
+  "n_molecules": 499,
+  "n_descriptors_scored": 126,
+  "macro_auroc": 0.6972471542713565,
+  "median_auroc": 0.7077270103834155
+}

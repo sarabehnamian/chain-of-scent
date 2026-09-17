@@ -1,0 +1,506 @@
+{
+  "oracle": {
+    "n_molecules": 499,
+    "n_descriptors_scored": 126,
+    "macro_auroc": 0.6972471542713565,
+    "median_auroc": 0.7077270103834155
+  },
+  "matched_pair_controls": {
+    "thiol->sulfurous": {
+      "n_pairs": 76,
+      "parent_has": 54,
+      "loses_descriptor_on_ablation": 41,
+      "keeps": 13,
+      "gains": 1,
+      "loss_rate": 0.7592592592592593
+    },
+    "ester->fruity": {
+      "n_pairs": 81,
+      "parent_has": 57,
+      "loses_descriptor_on_ablation": 29,
+      "keeps": 28,
+      "gains": 7,
+      "loss_rate": 0.5087719298245614
+    },
+    "aldehyde->green": {
+      "n_pairs": 75,
+      "parent_has": 24,
+      "loses_descriptor_on_ablation": 23,
+      "keeps": 1,
+      "gains": 10,
+      "loss_rate": 0.9583333333333334
+    },
+    "aldehyde->aldehydic": {
+      "n_pairs": 75,
+      "parent_has": 11,
+      "loses_descriptor_on_ablation": 11,
+      "keeps": 0,
+      "gains": 1,
+      "loss_rate": 1.0
+    },
+    "lactone->creamy": {
+      "n_pairs": 7,
+      "parent_has": 2,
+      "loses_descriptor_on_ablation": 2,
+      "keeps": 0,
+      "gains": 0,
+      "loss_rate": 1.0
+    },
+    "phenol->phenolic": {
+      "n_pairs": 21,
+      "parent_has": 17,
+      "loses_descriptor_on_ablation": 10,
+      "keeps": 7,
+      "gains": 0,
+      "loss_rate": 0.5882352941176471
+    },
+    "alkene->green": {
+      "n_pairs": 200,
+      "parent_has": 65,
+      "loses_descriptor_on_ablation": 40,
+      "keeps": 25,
+      "gains": 41,
+      "loss_rate": 0.6153846153846154
+    },
+    "carboxylic_acid->sour": {
+      "n_pairs": 66,
+      "parent_has": 11,
+      "loses_descriptor_on_ablation": 8,
+      "keeps": 3,
+      "gains": 3,
+      "loss_rate": 0.7272727272727273
+    }
+  },
+  "strata": {
+    "min": {
+      "recognised": {
+        "full": {
+          "n": 9,
+          "mean": 0.316445840756005,
+          "ci": [
+            0.18423077328858578,
+            0.4547669180032444
+          ]
+        },
+        "no_reasoning": {
+          "n": 9,
+          "mean": 0.2709022077046208,
+          "ci": [
+            0.12482561528876043,
+            0.4335037149593041
+          ]
+        },
+        "scrambled": {
+          "n": 9,
+          "mean": 0.3728987528538805,
+          "ci": [
+            0.21631438703379077,
+            0.5204407494114704
+          ]
+        },
+        "no_feedback": {
+          "n": 9,
+          "mean": 0.3480678006398507,
+          "ci": [
+            0.17838008988168874,
+            0.5020961272316571
+          ]
+        },
+        "random_mutation": {
+          "n": 9,
+          "mean": 0.05235253230764974,
+          "ci": [
+            0.003963229389926286,
+            0.12708319270247515
+          ]
+        }
+      },
+      "unrecognised": {
+        "full": {
+          "n": 5,
+          "mean": 0.3649721066734866,
+          "ci": [
+            0.03834688092570933,
+            0.6974352304420753
+          ]
+        },
+        "no_reasoning": {
+          "n": 5,
+          "mean": 0.37278287522424075,
+          "ci": [
+            0.06312624119280871,
+            0.6824395092556728
+          ]
+        },
+        "scrambled": {
+          "n": 5,
+          "mean": 0.36377901515341354,
+          "ci": [
+            0.04479707174279338,
+            0.6949314536400285
+          ]
+        },
+        "no_feedback": {
+          "n": 5,
+          "mean": 0.28509707421747105,
+          "ci": [
+            0.025492159555190963,
+            0.6157564583169957
+          ]
+        },
+        "random_mutation": {
+          "n": 5,
+          "mean": 0.19213714464824094,
+          "ci": [
+            0.048492005614930944,
+            0.3357822836815509
+          ]
+        }
+      },
+      "unrealisable": {
+        "full": {
+          "n": 12,
+          "mean": 0.14170441023527217,
+          "ci": [
+            0.1000179686332881,
+            0.19467348901714696
+          ]
+        },
+        "no_reasoning": {
+          "n": 12,
+          "mean": 0.06978443628863963,
+          "ci": [
+            0.03711058437758163,
+            0.10748813452090926
+          ]
+        },
+        "scrambled": {
+          "n": 12,
+          "mean": 0.15290682095969735,
+          "ci": [
+            0.07751171527046322,
+            0.2483918992887067
+          ]
+        },
+        "no_feedback": {
+          "n": 12,
+          "mean": 0.07152403506466214,
+          "ci": [
+            0.046839928474138176,
+            0.09555100522103824
+          ]
+        },
+        "random_mutation": {
+          "n": 12,
+          "mean": 0.010963960005034606,
+          "ci": [
+            0.002359903198785003,
+            0.023595373245615874
+          ]
+        }
+      },
+      "_summary": {
+        "full_recognised": 0.316445840756005,
+        "full_unrealisable": 0.14170441023527217,
+        "floor_recognised": 0.05235253230764974,
+        "floor_unrealisable": 0.010963960005034606,
+        "ratio_recognised_to_unrealisable": 2.233140381662146,
+        "full_over_floor_recognised": 6.044518322369022,
+        "full_over_floor_unrealisable": 12.924564680115767
+      }
+    },
+    "mean": {
+      "recognised": {
+        "full": {
+          "n": 9,
+          "mean": 0.5712751820412161,
+          "ci": [
+            0.4677238606364417,
+            0.6735623206022575
+          ]
+        },
+        "no_reasoning": {
+          "n": 9,
+          "mean": 0.5569978216858531,
+          "ci": [
+            0.43148578165308976,
+            0.6727968583430847
+          ]
+        },
+        "scrambled": {
+          "n": 9,
+          "mean": 0.6099229430725356,
+          "ci": [
+            0.4932099255059718,
+            0.7198391250615193
+          ]
+        },
+        "no_feedback": {
+          "n": 9,
+          "mean": 0.6113179693921482,
+          "ci": [
+            0.4884684202890145,
+            0.7186634542672032
+          ]
+        },
+        "random_mutation": {
+          "n": 9,
+          "mean": 0.19285848210694762,
+          "ci": [
+            0.08179765288845668,
+            0.3343582213400228
+          ]
+        }
+      },
+      "unrecognised": {
+        "full": {
+          "n": 5,
+          "mean": 0.5655569498327757,
+          "ci": [
+            0.33614054709990787,
+            0.8077769865016651
+          ]
+        },
+        "no_reasoning": {
+          "n": 5,
+          "mean": 0.6187801334280152,
+          "ci": [
+            0.4368326729769089,
+            0.8085129885898972
+          ]
+        },
+        "scrambled": {
+          "n": 5,
+          "mean": 0.5498702159412654,
+          "ci": [
+            0.31294720826616873,
+            0.8036869220270244
+          ]
+        },
+        "no_feedback": {
+          "n": 5,
+          "mean": 0.5906155675077956,
+          "ci": [
+            0.43296528300072207,
+            0.7482658520148693
+          ]
+        },
+        "random_mutation": {
+          "n": 5,
+          "mean": 0.36524045754371076,
+          "ci": [
+            0.23678986527222223,
+            0.4977720926664612
+          ]
+        }
+      },
+      "unrealisable": {
+        "full": {
+          "n": 12,
+          "mean": 0.3624496535251481,
+          "ci": [
+            0.2881053306149528,
+            0.43415884651920017
+          ]
+        },
+        "no_reasoning": {
+          "n": 12,
+          "mean": 0.3377894873157539,
+          "ci": [
+            0.2700767497213153,
+            0.4026663715457446
+          ]
+        },
+        "scrambled": {
+          "n": 12,
+          "mean": 0.3776347675936089,
+          "ci": [
+            0.30323923383113516,
+            0.4605944893517644
+          ]
+        },
+        "no_feedback": {
+          "n": 12,
+          "mean": 0.3076932760744445,
+          "ci": [
+            0.2547848614479163,
+            0.35824656288431256
+          ]
+        },
+        "random_mutation": {
+          "n": 12,
+          "mean": 0.19133229396159954,
+          "ci": [
+            0.11526289496842523,
+            0.2667776101758972
+          ]
+        }
+      },
+      "_summary": {
+        "full_recognised": 0.5712751820412161,
+        "full_unrealisable": 0.3624496535251481,
+        "floor_recognised": 0.19285848210694762,
+        "floor_unrealisable": 0.19133229396159954,
+        "ratio_recognised_to_unrealisable": 1.5761504431996345,
+        "full_over_floor_recognised": 2.9621470406700676,
+        "full_over_floor_unrealisable": 1.8943464588256693
+      }
+    },
+    "_note": "The unrecognised stratum has a much higher random-search floor than the other two, so its targets are intrinsically easier and it is not comparable. Headline contrast is recognised vs unrealisable."
+  },
+  "contrasts": {
+    "min": {
+      "full_minus_no_reasoning": {
+        "n_pairs": 26,
+        "mean_delta": 0.047456867002626066,
+        "ci_low": 0.0001276560830955577,
+        "ci_high": 0.09000753463368671,
+        "p_two_sided": 0.05
+      },
+      "full_minus_scrambled": {
+        "n_pairs": 26,
+        "mean_delta": -0.024482295383600673,
+        "ci_low": -0.07849451090205396,
+        "ci_high": 0.020973916718091346,
+        "p_two_sided": 0.3136
+      },
+      "full_minus_no_feedback": {
+        "n_pairs": 26,
+        "mean_delta": 0.036805462514337965,
+        "ci_low": -0.02797830305919057,
+        "ci_high": 0.09639395298301504,
+        "p_two_sided": 0.2448
+      },
+      "full_minus_random_mutation": {
+        "n_pairs": 26,
+        "mean_delta": 0.1849961534201645,
+        "ci_low": 0.11004649945690138,
+        "ci_high": 0.26523841394869035,
+        "p_two_sided": 0.0
+      }
+    },
+    "mean": {
+      "full_minus_no_reasoning": {
+        "n_pairs": 26,
+        "mean_delta": 0.006088550759030747,
+        "ci_low": -0.04353543802090763,
+        "ci_high": 0.05664908850774956,
+        "p_two_sided": 0.8268
+      },
+      "full_minus_scrambled": {
+        "n_pairs": 26,
+        "mean_delta": -0.017369905717148203,
+        "ci_low": -0.07261316543621643,
+        "ci_high": 0.036404485716147614,
+        "p_two_sided": 0.5232
+      },
+      "full_minus_no_feedback": {
+        "n_pairs": 26,
+        "mean_delta": 0.006592244418267469,
+        "ci_low": -0.049448898073858674,
+        "ci_high": 0.059738710027797355,
+        "p_two_sided": 0.7996
+      },
+      "full_minus_random_mutation": {
+        "n_pairs": 26,
+        "mean_delta": 0.24849004136985864,
+        "ci_low": 0.16229740673513093,
+        "ci_high": 0.336610700830079,
+        "p_two_sided": 0.0
+      }
+    }
+  },
+  "contamination": {
+    "n": 60,
+    "frequency_floor_f1": 0.134,
+    "mean_f1": 0.4202608502608503,
+    "named_rate": 0.75,
+    "mean_f1_named": 0.4805594405594406,
+    "mean_f1_unnamed": 0.23936507936507936,
+    "high_recall_fraction": 0.36666666666666664,
+    "_note": "frequency_floor_f1 is the score from always guessing the five commonest descriptors, computed on the same test scaffolds."
+  },
+  "diagnostics": {
+    "n_proposals": 496,
+    "per_arm": {
+      "full": {
+        "smiles_validity": 0.9326923076923077,
+        "odorant_plausible_rate": 0.9895833333333334,
+        "mean_sa_score": 2.864991315524062
+      },
+      "no_reasoning": {
+        "smiles_validity": 1.0,
+        "odorant_plausible_rate": 0.9901960784313726,
+        "mean_sa_score": 2.815196386375268
+      },
+      "no_feedback": {
+        "smiles_validity": 0.9134615384615384,
+        "odorant_plausible_rate": 0.9789473684210527,
+        "mean_sa_score": 2.890489987788692
+      },
+      "scrambled": {
+        "smiles_validity": 0.9519230769230769,
+        "odorant_plausible_rate": 1.0,
+        "mean_sa_score": 2.746066915568114
+      },
+      "random_mutation": {
+        "smiles_validity": 1.0,
+        "odorant_plausible_rate": 1.0,
+        "mean_sa_score": 2.727504638518997
+      }
+    },
+    "corr_score_vs_train_similarity": 0.2412331363704697,
+    "corr_score_vs_ensemble_std": 0.0059869460248438075,
+    "mean_similarity_to_train": 0.772615366250388,
+    "fraction_beyond_similarity_0.4": 0.05241935483870968,
+    "mean_score_within_0.4": 0.1299006873028472,
+    "mean_score_beyond_0.4": 0.0872944172876027
+  },
+  "faithfulness": {
+    "real": {
+      "n_claims": 2506,
+      "grounding_rate": 0.5881883479648843,
+      "n_tested": 1474,
+      "sign_agreement": {
+        "mean": 0.5067842605156038,
+        "ci": [
+          0.48236092265943015,
+          0.5318860244233379
+        ]
+      },
+      "beats_placebo_rate": 0.38345864661654133,
+      "anchored": {
+        "n": 389,
+        "label_changed": 108,
+        "changed_correct_direction": 68,
+        "changed_wrong_direction": 40,
+        "label_unchanged": 281,
+        "accuracy_given_change": 0.6296296296296297
+      }
+    },
+    "permuted_null": {
+      "n_claims": 2506,
+      "grounding_rate": 0.174780526735834,
+      "n_tested": 438,
+      "sign_agreement": {
+        "mean": 0.3721461187214612,
+        "ci": [
+          0.3264840182648402,
+          0.4200913242009132
+        ]
+      },
+      "beats_placebo_rate": 0.265625,
+      "anchored": {
+        "n": 69,
+        "label_changed": 19,
+        "changed_correct_direction": 11,
+        "changed_wrong_direction": 8,
+        "label_unchanged": 50,
+        "accuracy_given_change": 0.5789473684210527
+      }
+    },
+    "delta_grounding_rate": 0.4134078212290503,
+    "delta_sign_agreement": 0.13463814179414257,
+    "_note": "The permutation null attaches each claim to a different proposed molecule. It is the correct baseline: sign agreement requires the descriptor to move, so ties count as failures and chance is not 0.5. The anchored test is reported three ways because a human label that does not change is a non-event, not a failed prediction."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "n_proposals": 53,
+  "corr_score_vs_similarity": -0.19756741902702493,
+  "corr_score_vs_ensemble_std": 0.15484267082528763,
+  "mean_score_near_training": 0.547137180741412,
+  "mean_score_far_from_training": null,
+  "fraction_far_from_training": 0.0,
+  "implausible_rate": 0.0,
+  "interpretation": "If high scores concentrate at low similarity and high ensemble disagreement, the agent is exploiting the oracle rather than designing an odorant. Report these proposals separately and exclude them from success rates."
+}

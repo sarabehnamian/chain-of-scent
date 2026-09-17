@@ -1,0 +1,35 @@
+[
+  {
+    "id": "T000",
+    "descriptors": [
+      "floral",
+      "fruity",
+      "green",
+      "melon"
+    ],
+    "reference_smiles": "CC(=O)C1=CCC2C=CCC2C1",
+    "reference_scaffold": "C1=CCC2CC=CC2C1",
+    "n_train_molecules_with_profile": 8
+  },
+  {
+    "id": "T001",
+    "descriptors": [
+      "green",
+      "jasmin"
+    ],
+    "reference_smiles": "CCCCC1COC2(CCCC2)O1",
+    "reference_scaffold": "C1CCC2(C1)OCCO2",
+    "n_train_molecules_with_profile": 38
+  },
+  {
+    "id": "T002",
+    "descriptors": [
+      "fruity",
+      "green",
+      "sweet"
+    ],
+    "reference_smiles": "CC(OCc1ccccc1)OCc1ccccc1",
+    "reference_scaffold": "c1ccc(COCOCc2ccccc2)cc1",
+    "n_train_molecules_with_profile": 224
+  }
+]

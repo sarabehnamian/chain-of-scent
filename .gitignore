@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+results/oracle.pkl
+results/*.jsonl
+data/*.csv
+.env
+.venv/

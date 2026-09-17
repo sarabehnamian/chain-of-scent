@@ -1,0 +1,14 @@
+# core (everything except real LLM calls runs on these)
+rdkit>=2023.9
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+
+# real agent runs only
+anthropic>=0.40
+
+# optional: pretrained MPNN oracle instead of the fingerprint baseline
+# see https://github.com/ARY2260/openpom  (needs deepchem + dgl)
+# openpom
+# pyrfume

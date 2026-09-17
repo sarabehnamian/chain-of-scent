@@ -1,0 +1,66 @@
+{
+  "thiol->sulfurous": {
+    "n_pairs": 76,
+    "parent_has": 54,
+    "loses_descriptor_on_ablation": 41,
+    "keeps": 13,
+    "gains": 1,
+    "loss_rate": 0.7592592592592593
+  },
+  "ester->fruity": {
+    "n_pairs": 81,
+    "parent_has": 57,
+    "loses_descriptor_on_ablation": 29,
+    "keeps": 28,
+    "gains": 7,
+    "loss_rate": 0.5087719298245614
+  },
+  "aldehyde->green": {
+    "n_pairs": 75,
+    "parent_has": 24,
+    "loses_descriptor_on_ablation": 23,
+    "keeps": 1,
+    "gains": 10,
+    "loss_rate": 0.9583333333333334
+  },
+  "aldehyde->aldehydic": {
+    "n_pairs": 75,
+    "parent_has": 11,
+    "loses_descriptor_on_ablation": 11,
+    "keeps": 0,
+    "gains": 1,
+    "loss_rate": 1.0
+  },
+  "lactone->creamy": {
+    "n_pairs": 7,
+    "parent_has": 2,
+    "loses_descriptor_on_ablation": 2,
+    "keeps": 0,
+    "gains": 0,
+    "loss_rate": 1.0
+  },
+  "phenol->phenolic": {
+    "n_pairs": 21,
+    "parent_has": 17,
+    "loses_descriptor_on_ablation": 10,
+    "keeps": 7,
+    "gains": 0,
+    "loss_rate": 0.5882352941176471
+  },
+  "alkene->green": {
+    "n_pairs": 200,
+    "parent_has": 65,
+    "loses_descriptor_on_ablation": 40,
+    "keeps": 25,
+    "gains": 41,
+    "loss_rate": 0.6153846153846154
+  },
+  "carboxylic_acid->sour": {
+    "n_pairs": 66,
+    "parent_has": 11,
+    "loses_descriptor_on_ablation": 8,
+    "keeps": 3,
+    "gains": 3,
+    "loss_rate": 0.7272727272727273
+  }
+}
